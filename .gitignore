@@ -1,0 +1,59 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crash and diagnostic reports
+sysinfo.txt
+crashlytics-buildid.txt
+*.stacktrace
+
+# Builds and addressables
+*.apk
+*.aab
+*.unitypackage
+*.app
+ExportedObj/
+
+# Plastic and other VCS leftovers
+.plastic/
+*.private
+*.private.meta
+
+# Steam runtime files the owner adds later — keep the SDK out of git
+steam_appid.txt
+**/steam_api.dll
+**/steam_api64.dll
+**/libsteam_api.so
+**/libsteam_api.dylib
